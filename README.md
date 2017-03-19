@@ -10,7 +10,14 @@ When sorting an array of numbers into ascending order, the Selection Sort algori
 ![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/figures/1a.png "Figure 1a")
 ![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/figures/1b.png "Figure 1b")
 ![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/figures/1c.png "Figure 1c")
+
 ### Implementation
+
+The Selection Sort algorithm implemented below locates the smallest value in the array and swaps it for the first value, continuing this iterative process in the remainder of the array up to element *n*-1, where *n* is the count of values in the array. 
+
+![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/selection-sort.png "Selection Sort Pseudocode")
+
+
 ### Pseduocode
 ### Experiment
 ### Results
