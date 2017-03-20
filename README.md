@@ -23,6 +23,9 @@ The Selection Sort algorithm implemented below locates the smallest value in the
 
 ### Results
 
+![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/selection-sort-complete.png "Selection Sort Results Complete")
+
+![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/selection-sort-best%7Cworst%7Caverage.png "Selection Sort Best|Worst|Average Results")
 
 ### Conclusion
 
