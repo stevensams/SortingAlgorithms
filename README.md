@@ -17,9 +17,11 @@ The Selection Sort algorithm implemented below locates the smallest value in the
 
 ### Experiment
 
- To evaluate the performance of the algorithm, strategically System.currentTimeMillis() method in Java to capture the time before and just following the completion of the algorithm. 
+ To evaluate the performance of the algorithm the current time in milliseconds before and after sorting *n* numbers, where *n* was the complete length of the array, was captured. The algorithm was tested on a randomised array of integers of array lengths of between 10,000 and 100,000, incrementing by 10,000 after each test. 
 
- The subtraction of the former from the latter provided the total time in milliseconds that the algorithm took to sort *n* numbers, where *n* was the complete length of the array. I tested the algorithm on array lengths of between 10,000 and 100,000, incrementing by 10,000 after each test. For each array length, I performed twenty identical tests by calling the algorithm to sort a randomised array of integers. My aim through this testing was to find, as close as possible, the worst, best and average case of the algorithm’s time complexity. The more tests I conducted, the closer my final results would be to the theoretical best, worst and average case. I believed that the range (10,000-100,000) and the number of tests at each stage (20) was sufficient without being excessive. At the end of testing, I produced a scatter-plot and used the worst and best times of each input size (see below for an example) to produce the best, worst and calculated average case chart seen in section A.2.2. 
+ The aim through this testing was to find, as close as possible, the worst, best and average case of the algorithm’s complexity. The more tests conducted, the closer the final results would be to the theoretical best, worst and average case. The range (10,000-100,000) and the number of tests at each stage (20) was deemed sufficient without being excessive. 
+
+ A scatter-plot of the worst and best times of each input size (see below for an example) was constructed to highlight the best, worst and calculated average case chart seen in section A.2.2. 
 
 ### Results
 
