@@ -42,6 +42,9 @@ In the Merge algorithm the element in the first two arrays is compared, the smal
 ![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/figures/2a.png "Figure 2a")
 
 ### Implementation
+
+The Merge Sort algorithm implemented below recursively divides the array using the *start* and *end* variables as markers for the first and last elements of a divided list. When *start* and *end* are equal to each other then the list contains one element. The two recursive calls to `sort()` initially creates two, one element lists. The merge method then picks the smaller of the two elements and places it into an array. The second element (the larger one) is placed in by one of the bottom two while loops in the merge method. This process continues until the entire list is merged.
+
 ### Pseduocode
 ### Experiment
 ### Results
