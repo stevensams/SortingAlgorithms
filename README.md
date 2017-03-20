@@ -29,7 +29,7 @@ The Selection Sort algorithm implemented below locates the smallest value in the
 
 ![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/selection-sort-best%7Cworst%7Caverage.png "Selection Sort Best|Worst|Average Results")
 
-### Conclusion
+### Summary
 
 As can be seen in the above chart, doubling the input size quadruples the time required for Selection Sort to sort the array. An example of this can be seen in the relationship between input sizes 40,000 and 80,000. Selection Sort requires only *n*-1 swaps in the worst case however the number of comparisons is fixed at *n*(*n*-1)/2 for all cases. This results in a time complexity of *O*(*n*<sup>2</sup>).
 
@@ -45,10 +45,13 @@ In the Merge algorithm the element in the first two arrays is compared, the smal
 
 The Merge Sort algorithm implemented below recursively divides the array using the *start* and *end* variables as markers for the first and last elements of a divided list. When *start* and *end* are equal to each other then the list contains one element. The two recursive calls to `sort()` initially creates two, one element lists. The merge method then picks the smaller of the two elements and places it into an array. The second element (the larger one) is placed in by one of the bottom two while loops in the merge method. This process continues until the entire list is merged.
 
+![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/merge-sort-sort.png "Merge Sort Sort Pseudocode")
+![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/merge-sort-merge.png "Merge Sort Merge Pseudocode")
+
 ### Pseduocode
 ### Experiment
 ### Results
-### Conclusion
+### Summary
 
 ## Quick Sort
 ### Theory
@@ -56,7 +59,7 @@ The Merge Sort algorithm implemented below recursively divides the array using t
 ### Pseduocode
 ### Experiment
 ### Results
-### Conclusion
+### Summary
 
 ## Heap Sort
 ### Theory
@@ -64,4 +67,4 @@ The Merge Sort algorithm implemented below recursively divides the array using t
 ### Pseduocode
 ### Experiment
 ### Results
-### Conclusion
+### Summary
