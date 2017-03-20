@@ -34,7 +34,12 @@ The Selection Sort algorithm implemented below locates the smallest value in the
 As can be seen in the above chart, doubling the input size quadruples the time required for Selection Sort to sort the array. An example of this can be seen in the relationship between input sizes 40,000 and 80,000. Selection Sort requires only *n*-1 swaps in the worst case however the number of comparisons is fixed at *n*(*n*-1)/2 for all cases. This results in a time complexity of *O*(*n*<sup>2</sup>).
 
 ## Merge Sort
-### Theory
+
+The Merge Sort algorithm recursively divides an array into two until the remaining sub arrays contain just one element. The sub arrays are then merged together, sorting each one as the process goes. The top section in figure 2a shows an unsorted array with four elements. The Merge Sort algorithm firstly calls itself to create two sub arrays with one containing the first two elements of the parent array and the other containing the second two elements of the parent array. Merge Sort then calls itself again to split the sub arrays into further sub arrays. This can be seen in the middle section of Figure 2a. There now exists four sub arrays of one element, meaning that each sub array is inherently sorted. When Merge Sort calls itself a third time, a comparison check will discover that the sub arrays contain just one element and send them to a separate method to be merged.
+
+In the Merge algorithm the element in the first two arrays is compared, the smaller one is selected and placed first in a temporary array. The larger element (in this case 68) will remain in one of the two arrays. Two mutually exclusive while loops at the end of the algorithm (one for each sub array) will locate the larger element and place it at the end of the temporary array. This process also happens for the third and forth arrays, resulting in two sorted arrays of size two, viewable in section 2a as the forth section down. The final step is to combine these two arrays, again by first finding the smallest element of the two arrays and putting it, once and for all, into its correct place in the final array. This process will insert the three smallest elements into the final array, with the bottom while loops taking care of the final element. The Merge Sort algorithm has a time complexity of *O*(*n* log *n*). 
+
+
 ### Implementation
 ### Pseduocode
 ### Experiment
