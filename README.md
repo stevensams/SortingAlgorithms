@@ -67,7 +67,9 @@ The Quick Sort algorithm works on the same divide and conquer principle as that 
 ### Summary
 
 ## Heap Sort
-### Theory
+
+The Heap Sort algorithm creates a type of binary tree, called a heap, and enforces a ‘heap property’: that all parent nodes of the tree are smaller than their respective child nodes. The smallest node is the root of the tree. The concept of a heap is implemented in an array by defining the children of a parent as 2*i*+1 and 2*i*+2, where i is the index of the array. The corresponding parent and child nodes can be seen in an array in figure 4a. To sort the heap, Heap Sort removes the root of the tree replacing it with the last, rightmost child as seen in figure 4b. It is likely that the new root node will be larger than one or both its children and as such violates the heap property. Heap Sort will restore the heap property before any more values are removed.  To restore an array’s heap property, Heap Sort will start in the centre of the array (i.e the smallest parent) and work towards the root. It does not need to check the latter part of the array (i.e the children) as only parent elements can violate the heap properties. The root is then swapped with the last element of the unsorted array. This element is now sorted and is not swapped again. Heap Sort will continue removing the root of the tree and restoring the heap properties of the binary tree until there is only one element remaining in the unsorted array. Heap Sort, like Merge Sort, has a time complexity of *O*(*n* log *n*).
+
 ### Implementation
 ### Pseduocode
 ### Experiment
