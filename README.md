@@ -61,6 +61,9 @@ The Quick Sort algorithm works on the same divide and conquer principle as that 
 ![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/figures/3b.png "Figure 3b")
 
 ### Implementation
+
+The Quick Sort algorithm, as implemented below, takes the first element of the array as the pivot, moving the smaller values behind and the larger values in front of the pivot value. Quick Sort is then recursively called on each sub array until all sub arrays contains just one element. When this occurs, the array will be sorted. 
+
 ### Pseduocode
 ### Experiment
 ### Results
