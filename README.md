@@ -78,6 +78,9 @@ The Heap Sort algorithm creates a type of binary tree, called a heap, and enforc
 ![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/figures/4b.png "Figure 4b")
 
 ### Implementation
+
+The `heapSort()` method below inserts the minimum element of an array into the last location in the array, continuing iteratively until there are no further values remaining in the unsorted section. The `getMin()` method returns the smallest value (the root) to the `heapSort()` method, inserting the last array element in its place. The `makeHeap()` method populates the heap from the bottom, rightmost child using a call to the `heap()` method to restore the heap’s ‘heap properties’. This is a minimum order heap and as such will return an array sorted in descending order.
+
 ### Pseduocode
 ### Experiment
 ### Results
