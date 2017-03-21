@@ -56,6 +56,10 @@ The Merge Sort algorithm implemented below recursively divides the array using t
 
 The Quick Sort algorithm works on the same divide and conquer principle as that of Merge Sort. However instead of recursively splitting an array into two arrays of the same (or near the same) number of elements, Quick Sort picks an element of the array, called the pivot, and arranges all the values smaller than the pivot behind it (by swapping them with the pivot location) and all the values greater than the pivot in front of it. During this phase, the array is divided into 4 subsections: the pivot, elements less than the pivot, elements greater than the pivot and elements yet to be analysed. The elements in the two sub arrays either side of the pivot are not internally sorted. Quick Sort then calls itself to the section before and after the pivot, choosing a new pivot value in each, and performing the same operation. To use an example, figure 3a shows an unsorted list. The Quick Sort algorithm takes the first value in the array (42) as the pivot, dividing the array into greater than and less than sections around the pivot. In figure 3b Quick Sort is not required to perform any operations on the greater than sub list as it only contains one value, namely 73. Quick Sort chooses 27 as the new pivot value; the only other element in this section is 15. As 15 is less than the pivot value, Quick Sort swaps 15 with the pivot element. The array is now sorted. When all the values of an array are sorted in ascending or descending order, Quick Sort performs at the worst case. The reason for this is that the first element chosen will be either the largest or smallest in the whole array, resulting in a time complexity of *O*(*n*<sup>2</sup>). However for the vast majority of inputs, Quick Sort has a time complexity of *O*(*n* log *n*).
 
+![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/figures/3a.png "Figure 3a")
+
+![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/figures/3b.png "Figure 3b")
+
 ### Implementation
 ### Pseduocode
 ### Experiment
