@@ -85,3 +85,5 @@ The `heapSort()` method below inserts the minimum element of an array into the l
 ### Experiment
 ### Results
 ### Summary
+
+Heap Sort, like Quick Sort, uses just one array and so therefore minimises memory space. The time results for Heap Sort indicate that it is marginally slower than Quick Sort, however Heap Sort doesn’t suffer from the ‘hidden’ worst case of Quick Sort ( *O*(*n*<sup>2</sup>)) highlighted in Section C.2.3. 
