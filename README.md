@@ -66,7 +66,12 @@ The Quick Sort algorithm works on the same divide and conquer principle as that 
 
 The Quick Sort algorithm, as implemented below, takes the first element of the array as the pivot, moving the smaller values behind and the larger values in front of the pivot value. Quick Sort is then recursively called on each sub array until all sub arrays contains just one element. When this occurs, the array will be sorted. 
 
-### Pseduocode
+![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/quick-sort-quicksort.png "Quick Sort Pseudocode")
+
+![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/quick-sort-quick.png "Quick Sort Pseudocode")
+
+![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/quick-sort-sort.png "Quick Sort Pseudocode")
+
 ### Experiment
 ### Results
 ### Summary
@@ -86,8 +91,14 @@ The Heap Sort algorithm creates a type of binary tree, called a heap, and enforc
 The `heapSort()` method below inserts the minimum element of an array into the last location in the array, continuing iteratively until there are no further values remaining in the unsorted section. The `getMin()` method returns the smallest value (the root) to the `heapSort()` method, inserting the last array element in its place. The `makeHeap()` method populates the heap from the bottom, rightmost child using a call to the `heap()` method to restore the heap’s ‘heap properties’. This is a minimum order heap and as such will return an array sorted in descending order.
 
 ### Pseduocode
+
+
+
 ### Experiment
+
 ### Results
+
+
 ### Summary
 
-Heap Sort, like Quick Sort, uses just one array and so therefore minimises memory space. The time results for Heap Sort indicate that it is marginally slower than Quick Sort, however Heap Sort doesn’t suffer from the ‘hidden’ worst case of Quick Sort ( *O*(*n*<sup>2</sup>)) highlighted in Section C.2.3. 
+Heap Sort, like Quick Sort, uses just one array and so therefore minimises memory space. The time results for Heap Sort indicate that it is marginally slower than Quick Sort, however Heap Sort doesn’t suffer from the ‘hidden’ worst case of Quick Sort (*O*(*n*<sup>2</sup>)) highlighted in Section C.2.3. 
