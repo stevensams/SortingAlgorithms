@@ -50,6 +50,11 @@ The Merge Sort algorithm implemented below recursively divides the array using t
 
 ### Experiment
 ### Results
+
+![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/merge-sort-complete.png "Merge Sort Results Complete")
+
+![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/merge-sort-best%7Cworst%7Caverage.png "Merge Sort Best|Worst|Average Results")
+
 ### Summary
 
 The time results for Merge Sort are a improvement on the performance seen with Selection Sort. The divide and conquer strategy enables Merge Sort to have a time complexity of *O*(*n* log *n*). However, the implementation requires an additional array to retain the correct order of values. Some versions of Merge Sort have three arrays as opposed to using the method above, namely array markers, indicated in the pseudo-code in section B.1.2. The impact is an increase in memory usage of at least twice that of the Selection Sort. 
