@@ -79,6 +79,12 @@ The Quick Sort algorithm, as implemented below, takes the first element of the a
 
 ### Experiment
 ### Results
+
+![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/quick-sort-complete.png "Quick Sort Results Complete")
+
+![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/quick-sort-best%7Cworst%7Caverage.png "Quick Sort Best|Worst|Average Results")
+
+
 ### Summary
 
 The Quick Sort algorithm uses only one array and appears to be faster than Merge Sort in the worst case. However as was stated in Part 1 Section 3, Quick Sort has a worst case of *O*(*n*<sup>2</sup>); the same as Selection Sort. The worst case of Quick Sort occurs when the algorithm receives a sorted list, highly unlikely when using a randomised array. It is therefore not surprising that the diagram omits displaying the true worst case when using this testing procedure. Creating a separate test to trigger the worst case (by inputting a sorted array) alongside the randomised inputs would have provided a more accurate analysis for this particular algorithm. 
