@@ -13,7 +13,7 @@ When sorting an array of numbers into ascending order, the Selection Sort algori
 
 The Selection Sort algorithm implemented below locates the smallest value in the array and swaps it for the first value, continuing this iterative process in the remainder of the array up to element *n*-1, where *n* is the count of values in the array. 
 
-<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/selection-sort.png" height="400">
+<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/selection-sort.png" height="350">
 
 ### Experiment
 
@@ -39,7 +39,7 @@ The Merge Sort algorithm recursively divides an array into two until the remaini
 
 In the Merge algorithm the element in the first two arrays is compared, the smaller one is selected and placed first in a temporary array. The larger element (in this case 68) will remain in one of the two arrays. Two mutually exclusive while loops at the end of the algorithm (one for each sub array) will locate the larger element and place it at the end of the temporary array. This process also happens for the third and forth arrays, resulting in two sorted arrays of size two, viewable in section 2a as the forth section down. The final step is to combine these two arrays, again by first finding the smallest element of the two arrays and putting it, once and for all, into its correct place in the final array. This process will insert the three smallest elements into the final array, with the bottom while loops taking care of the final element. The Merge Sort algorithm has a time complexity of *O*(*n* log *n*). 
 
-![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/figures/2a.png "Figure 2a")
+<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/figures/2a.png" height="300">
 
 ### Implementation
 
