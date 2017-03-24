@@ -13,7 +13,7 @@ When sorting an array of numbers into ascending order, the Selection Sort algori
 
 The Selection Sort algorithm implemented below locates the smallest value in the array and swaps it for the first value, continuing this iterative process in the remainder of the array up to element *n*-1, where *n* is the count of values in the array. 
 
-![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/selection-sort.png "Selection Sort Pseudocode")
+<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/selection-sort.png" width="48" alt = "Selection Sort Pseudocode" border = 1>
 
 ### Experiment
 
@@ -109,6 +109,10 @@ The `heapSort()` method below inserts the minimum element of an array into the l
 ![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/heap-sort-heap.png "Heap Sort Pseudocode")
 
 ### Experiment
+
+![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/heap-sort-complete.png "Heap Sort Results Complete")
+
+![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/heap-sort-best%7Cworst%7Caverage.png "Heap Sort Best|Worst|Average Results")
 
 ### Results
 
