@@ -53,9 +53,9 @@ The Merge Sort algorithm implemented below recursively divides the array using t
 
 ### Results
 
-<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/merge-sort-complete.png" height="300">
+<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/merge-sort-complete.png" height="250">
 
-<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/merge-sort-best%7Cworst%7Caverage.png" height="300">
+<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/merge-sort-best%7Cworst%7Caverage.png" height="250">
 
 ### Summary
 
