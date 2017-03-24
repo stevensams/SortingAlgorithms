@@ -25,9 +25,9 @@ The Selection Sort algorithm implemented below locates the smallest value in the
 
 ### Results
 
-![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/selection-sort-complete.png "Selection Sort Results Complete")
+<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/selection-sort-complete.png" height="250">
 
-![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/selection-sort-best%7Cworst%7Caverage.png "Selection Sort Best|Worst|Average Results")
+<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/selection-sort-best%7Cworst%7Caverage.png" height="250">
 
 ### Summary
 
@@ -80,11 +80,12 @@ The Quick Sort algorithm, as implemented below, takes the first element of the a
 ![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/quick-sort-sort.png "Quick Sort Pseudocode")
 
 ### Experiment
+
 ### Results
 
-![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/quick-sort-complete.png "Quick Sort Results Complete")
+<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/quick-sort-complete.png" height="250">
 
-![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/quick-sort-best%7Cworst%7Caverage.png "Quick Sort Best|Worst|Average Results")
+<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/quick-sort-best%7Cworst%7Caverage.png" height="250">
 
 ### Summary
 
@@ -112,11 +113,13 @@ The `heapSort()` method below inserts the minimum element of an array into the l
 
 ### Experiment
 
-![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/heap-sort-complete.png "Heap Sort Results Complete")
 
-![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/heap-sort-best%7Cworst%7Caverage.png "Heap Sort Best|Worst|Average Results")
 
 ### Results
+
+<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/heap-sort-complete.png" height="250">
+
+<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/heap-sort-best%7Cworst%7Caverage.png" height="250">
 
 ### Summary
 
