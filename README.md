@@ -79,7 +79,7 @@ The Quick Sort algorithm, as implemented below, takes the first element of the a
 
 <img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/quick-sort-quick.png" height="250">
 
-<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/quick-sort-quick.png" height="250">
+<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/quick-sort-sort.png" height="250">
 
 ### Experiment
 
