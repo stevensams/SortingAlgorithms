@@ -51,6 +51,8 @@ The Merge Sort algorithm implemented below recursively divides the array using t
 
 ### Experiment
 
+The same technique and sample size was used for evaluating the Merge Sort algorithm as was previously followed for Selection Sort. The total and best, worst, and, average case results can seen in the scatter-plots below
+
 ### Results
 
 <img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/charts/merge-sort-complete.png" height="250">
@@ -80,6 +82,8 @@ The Quick Sort algorithm, as implemented below, takes the first element of the a
 ![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/quick-sort-sort.png "Quick Sort Pseudocode")
 
 ### Experiment
+
+The technique for testing the Quick Sort algorithm was identical to the Merge and Selection Sort. Again, the same input size of randomised integers and quantity of tests was performed. The first scatter-plot below depicts this, highlighting the technique used to extract the worst and best case values for each input size to construct the second chart.    
 
 ### Results
 
@@ -113,7 +117,7 @@ The `heapSort()` method below inserts the minimum element of an array into the l
 
 ### Experiment
 
-
+As with the previous algorithms, Heap Sort was initially checked on a small input size to verify that the algorithm was sorting an array of random integers. Following this, the print() methods used to output the array values were commented out, leaving only the elapsed time variable as an output.  After performing 20 tests on values between 10,000 and 100,000 at every 10,000-mark interval, I produced the scatter-plot seen below using the best and worst case of each interval to develop the chart seen in section D.2.2. 
 
 ### Results
 
