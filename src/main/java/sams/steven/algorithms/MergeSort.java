@@ -23,21 +23,21 @@ public class MergeSort
         // next position in temp
         int j = 0;
 
-        //move the smaller element from left or right into temp while left and right have elements left to compare
-        //do while the left and right sub arrays have elements remaining
+        /* Move the smaller element from left or right into temp while left and right have elements
+        left to compare, continue while the left and right sub arrays have elements remaining */
         while (left <= mid && right <= end) {
-            if (a[left] < a[right]) { //when left sub array element is smaller than the corresponding right sub array element
-                temp[j] = a[left];      // copy left sub array element into its correct position in temp array
+            if (a[left] < a[right]) {   //when left sub array element is smaller than the corresponding right sub array element
+                temp[j] = a[left];      //copy left sub array element into its correct position in temp array
                 left++;		            //increment left sub array to the next element to be checked
-            } else { //when right sub array element is smaller than the corresponding left sub array element
+            } else {                    //when right sub array element is smaller than the corresponding left sub array element
                 temp[j] = a[right];
                 right++;
             }
             j++;
         }
 
-        // the proceeding two while loops are mutually exclusive
-        // copy any remaining entries of the left sub array
+        /* The proceeding two while loops are mutually exclusive
+        copy any remaining entries of the left sub array */
         while (left <= mid) {
             temp[j] = a[left];
             left++;
@@ -57,12 +57,12 @@ public class MergeSort
     }
 
     private static void sort(int[] a, int start, int end) {
-        if (start == end) 	//the direct solution, list has 1 element and is therefore sorted
-            return;     	//return to caller
+        if (start == end) 	// the direct solution, list has 1 element and is therefore sorted
+            return;     	// return to caller
 
-        int mid = (start + end) / 2; 	    //find the centre element of the array
-        sort(a, start, mid);		    //recursively split the array down
-        sort(a, mid + 1, end);  	//along its centre element
-        merge(a, start, mid, end); 	    // sub array recursively sorted up
+        int mid = (start + end) / 2;    // find the centre element of the array
+        sort(a, start, mid);            // recursively split the array down
+        sort(a, mid + 1, end);    // along its centre element
+        merge(a, start, mid, end);      // sub array recursively sorted up
     }
 }
