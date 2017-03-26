@@ -111,7 +111,7 @@ The `heapSort()` method below inserts the minimum element of an array into the l
 
 <img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/heap-sort-get-min.png" height="150">
 
-<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/heap-sort-make-heap.png" height="150">
+<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/heap-sort-make-heap.png" height="100">
 
 <img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/heap-sort-heap.png" height="300">
 
