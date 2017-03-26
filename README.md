@@ -79,7 +79,7 @@ The Quick Sort algorithm, as implemented below, takes the first element of the a
 
 <img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/quick-sort-quick.png" height="250">
 
-<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/quick-sort-sort.png" height="160">
+<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/quick-sort-sort.png" height="150">
 
 ### Experiment
 
@@ -107,13 +107,13 @@ The Heap Sort algorithm creates a type of binary tree, called a heap, and enforc
 
 The `heapSort()` method below inserts the minimum element of an array into the last location in the array, continuing iteratively until there are no further values remaining in the unsorted section. The `getMin()` method returns the smallest value (the root) to the `heapSort()` method, inserting the last array element in its place. The `makeHeap()` method populates the heap from the bottom, rightmost child using a call to the `heap()` method to restore the heap’s ‘heap properties’. This is a minimum order heap and as such will return an array sorted in descending order.
 
-![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/heap-sort.png "Heap Sort Pseudocode")
+<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/heap-sort.png" height="150">
 
-![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/heap-sort-get-min.png "Heap Sort Pseudocode")
+<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/heap-sort-get-min.png" height="150">
 
-![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/heap-sort-make-heap.png "Heap Sort Pseudocode")
+<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/heap-sort-make-heap.png" height="150">
 
-![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/heap-sort-heap.png "Heap Sort Pseudocode")
+<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/pseudocode/heap-sort-heap.png" height="300">
 
 ### Experiment
 
