@@ -2,6 +2,8 @@ import java.io.Console;
 import java.util.regex.Pattern;
 import java.util.Random;
 
+import sams.steven.algorithms.SelectionSort;
+
 public class Run {
 
     public static void main(String args[]) {
@@ -45,8 +47,6 @@ public class Run {
         int testCount = Integer.valueOf(tests) + 1;
         int itemCount = Integer.valueOf(items);
 
-        long[] results = new long[testCount];
-
         if(sort.equals("s")) {
             Object[] experiment = { "Selection Sort", items, tests};
             console.printf("Running %s on %s random ints over %s tests%n", experiment);
@@ -67,13 +67,36 @@ public class Run {
             long startTime = System.currentTimeMillis();
             generateRandomArray(itemCount);
             long endTime = System.currentTimeMillis();
-            results[i] = endTime-startTime;
-            console.printf("Test %d complete%n", i);
+            console.printf("|  %s  | %d |%n", (i), (endTime-startTime));
         }
 
-        for (long result: results) {
-            console.printf("|  -  | %d |%n", result);
-        }
+    }
+
+    private static void streetsign() {
+
+        //https://s-media-cache-ak0.pinimg.com/736x/d1/99/e8/d199e88184de55dc1b00aa450bcf348f.jpg
+        // flemish bond
+
+        Console console = System.console();
+        console.printf("+---+---+---+---+--------------+%n");
+        console.printf("|   |---+---+---+--------------+%n");
+        console.printf("+---+---+---+---+--------------+%n");
+        console.printf("+--------------------------+%n");
+
+        console.printf("| Pick a Sorting Algorithm |%n");
+        console.printf("+-----------------+--------+%n");
+        console.printf("| Algorithm       | Hit    |%n");
+        console.printf("+-----------------+--------+%n");
+        console.printf("| Selection Sort  | (s)    |%n");
+        console.printf("| Merge Sort      | (m)    |%n");
+        console.printf("| Quick Sort      | (q)    |%n");
+        console.printf("| Heap Sort       | (h)    |%n");
+        console.printf("+-----------------+--------+%n");
+
+    }
+
+    private static String[] formatExperiment(String... variables) {
+        return null;
     }
 
     private static int[] generateRandomArray(int size) {
