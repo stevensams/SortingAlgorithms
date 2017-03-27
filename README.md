@@ -69,9 +69,9 @@ The time results for Merge Sort are a improvement on the performance seen with S
 
 The Quick Sort algorithm works on the same divide and conquer principle as that of Merge Sort. However instead of recursively splitting an array into two arrays of the same (or near the same) number of elements, Quick Sort picks an element of the array, called the pivot, and arranges all the values smaller than the pivot behind it (by swapping them with the pivot location) and all the values greater than the pivot in front of it. During this phase, the array is divided into 4 subsections: the pivot, elements less than the pivot, elements greater than the pivot and elements yet to be analysed. The elements in the two sub arrays either side of the pivot are not internally sorted. Quick Sort then calls itself to the section before and after the pivot, choosing a new pivot value in each, and performing the same operation. To use an example, figure 3a shows an unsorted list. The Quick Sort algorithm takes the first value in the array (42) as the pivot, dividing the array into greater than and less than sections around the pivot. In figure 3b Quick Sort is not required to perform any operations on the greater than sub list as it only contains one value, namely 73. Quick Sort chooses 27 as the new pivot value; the only other element in this section is 15. As 15 is less than the pivot value, Quick Sort swaps 15 with the pivot element. The array is now sorted. When all the values of an array are sorted in ascending or descending order, Quick Sort performs at the worst case. The reason for this is that the first element chosen will be either the largest or smallest in the whole array, resulting in a time complexity of *O*(*n*<sup>2</sup>). However for the vast majority of inputs, Quick Sort has a time complexity of *O*(*n* log *n*).
 
-![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/figures/3a.png "Figure 3a")
+<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/figures/3a.png" height="100">
 
-![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/figures/3b.png "Figure 3b")
+<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/figures/3b.png" height="100">
 
 ### Implementation
 
@@ -101,9 +101,9 @@ The Quick Sort algorithm uses only one array and appears to be faster than Merge
 
 The Heap Sort algorithm creates a type of binary tree, called a heap, and enforces a ‘heap property’: that all parent nodes of the tree are smaller than their respective child nodes. The smallest node is the root of the tree. The concept of a heap is implemented in an array by defining the children of a parent as 2*i*+1 and 2*i*+2, where i is the index of the array. The corresponding parent and child nodes can be seen in an array in figure 4a. To sort the heap, Heap Sort removes the root of the tree replacing it with the last, rightmost child as seen in figure 4b. It is likely that the new root node will be larger than one or both its children and as such violates the heap property. Heap Sort will restore the heap property before any more values are removed.  To restore an array’s heap property, Heap Sort will start in the centre of the array (i.e the smallest parent) and work towards the root. It does not need to check the latter part of the array (i.e the children) as only parent elements can violate the heap properties. The root is then swapped with the last element of the unsorted array. This element is now sorted and is not swapped again. Heap Sort will continue removing the root of the tree and restoring the heap properties of the binary tree until there is only one element remaining in the unsorted array. Heap Sort, like Merge Sort, has a time complexity of *O*(*n* log *n*).
 
-![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/figures/4a.png "Figure 4a")
+<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/figures/4a.png" height="100">
 
-![alt text](https://github.com/stevensams/SortingAlgorithms/blob/master/images/figures/4b.png "Figure 4b")
+<img src="https://github.com/stevensams/SortingAlgorithms/blob/master/images/figures/4b.png" height="100">
 
 ### Implementation
 
