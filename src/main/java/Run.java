@@ -69,30 +69,6 @@ public class Run {
             long endTime = System.currentTimeMillis();
             console.printf("|  %s  | %d |%n", (i), (endTime-startTime));
         }
-
-    }
-
-    private static void streetsign() {
-
-        //https://s-media-cache-ak0.pinimg.com/736x/d1/99/e8/d199e88184de55dc1b00aa450bcf348f.jpg
-        // flemish bond
-
-        Console console = System.console();
-        console.printf("+---+---+---+---+--------------+%n");
-        console.printf("|   |---+---+---+--------------+%n");
-        console.printf("+---+---+---+---+--------------+%n");
-        console.printf("+--------------------------+%n");
-
-        console.printf("| Pick a Sorting Algorithm |%n");
-        console.printf("+-----------------+--------+%n");
-        console.printf("| Algorithm       | Hit    |%n");
-        console.printf("+-----------------+--------+%n");
-        console.printf("| Selection Sort  | (s)    |%n");
-        console.printf("| Merge Sort      | (m)    |%n");
-        console.printf("| Quick Sort      | (q)    |%n");
-        console.printf("| Heap Sort       | (h)    |%n");
-        console.printf("+-----------------+--------+%n");
-
     }
 
     private static String[] formatExperiment(String... variables) {
