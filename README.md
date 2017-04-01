@@ -6,7 +6,6 @@ I completed this coursework in 2003 during the sophomore year of my Computer Sci
 ```
 mvn compile
 mvn exec:java
-
 ```
 
 ## Selection Sort
